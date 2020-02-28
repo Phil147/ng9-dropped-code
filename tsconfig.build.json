@@ -20,7 +20,8 @@
     ],
     "paths": {
       "mylib": [
-        "projects/mylib/src/public-api.ts"
+        "dist/mylib/mylib",
+        "dist/mylib"
       ]
     }
   },

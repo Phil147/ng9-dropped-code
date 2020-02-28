@@ -1,0 +1,9 @@
+<ng-container *ngIf="show">
+  <div *ngFor="let tab of tabs; let i = index">
+    <ng-template [cdkPortalOutlet]="tab.content"></ng-template>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="show2">
+  <lib-header-outlet></lib-header-outlet>
+</ng-container>
